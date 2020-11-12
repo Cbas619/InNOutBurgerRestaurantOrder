@@ -5,9 +5,9 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.InNOutBurgerUIController">
    <center>
       <ImageView id="InNOutLogoStartingScreen" fitHeight="241.0" fitWidth="381.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
          <image>
@@ -20,6 +20,9 @@
          <BorderPane.margin>
             <Insets bottom="60.0" left="10.0" right="10.0" top="10.0" />
          </BorderPane.margin>
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
       </Button>
    </bottom>
 </BorderPane>
