@@ -114,7 +114,7 @@
          <children>
             <ImageView fitHeight="592.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="https://giphy.com/stickers/palm-trees-in-n-out-burger-VFpmKBBC20wVOGXmz1" />
+                  <Image url="https://media-s3-us-east-1.ceros.com/martin-flores/images/2017/02/13/287d51a466bda5bde65be949a581eadc/palm-pattern.png" />
                </image>
             </ImageView>
          </children>
