@@ -6,15 +6,12 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TitledPane?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <bottom>
       <Button mnemonicParsing="false" prefHeight="67.0" prefWidth="254.0" style="-fx-background-color: red;" text="ADD TO ORDER" textFill="WHITE" BorderPane.alignment="BOTTOM_RIGHT">
          <BorderPane.margin>
@@ -28,7 +25,7 @@
    <left>
       <VBox prefHeight="490.0" prefWidth="402.0" BorderPane.alignment="CENTER">
          <children>
-            <Label prefHeight="68.0" prefWidth="331.0" text="SELECT YOUR ITEMS">
+            <Label prefHeight="61.0" prefWidth="375.0" text="SELECT YOUR ITEMS">
                <font>
                   <Font name="System Bold" size="35.0" />
                </font>
@@ -109,18 +106,4 @@
          </children>
       </VBox>
    </left>
-   <top>
-      <Pane prefHeight="72.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
-         <children>
-            <ImageView fitHeight="592.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="https://media-s3-us-east-1.ceros.com/martin-flores/images/2017/02/13/287d51a466bda5bde65be949a581eadc/palm-pattern.png" />
-               </image>
-            </ImageView>
-         </children>
-         <BorderPane.margin>
-            <Insets bottom="10.0" top="10.0" />
-         </BorderPane.margin>
-      </Pane>
-   </top>
 </BorderPane>
