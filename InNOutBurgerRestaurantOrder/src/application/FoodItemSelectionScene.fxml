@@ -1,30 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
 <BorderPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <top>
-      <Label prefHeight="62.0" prefWidth="266.0" text="Select Your Items" BorderPane.alignment="TOP_LEFT">
+      <Label prefHeight="68.0" prefWidth="335.0" text="Select Your Items" BorderPane.alignment="TOP_LEFT">
          <BorderPane.margin>
             <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
          </BorderPane.margin>
          <font>
-            <Font name="System Bold" size="27.0" />
+            <Font name="System Bold" size="35.0" />
          </font>
       </Label>
    </top>
    <bottom>
-      <Button mnemonicParsing="false" prefHeight="58.0" prefWidth="186.0" style="-fx-background-color: red;" text="ADD TO ORDER" textFill="WHITE" BorderPane.alignment="BOTTOM_RIGHT">
+      <Button mnemonicParsing="false" prefHeight="67.0" prefWidth="254.0" style="-fx-background-color: red;" text="ADD TO ORDER" textFill="WHITE" BorderPane.alignment="BOTTOM_RIGHT">
          <BorderPane.margin>
             <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
          </BorderPane.margin>
          <font>
-            <Font name="System Bold" size="18.0" />
+            <Font name="System Bold" size="24.0" />
          </font>
       </Button>
    </bottom>
+   <left>
+      <VBox prefHeight="490.0" prefWidth="402.0" BorderPane.alignment="CENTER">
+         <children>
+            <Accordion prefHeight="484.0" prefWidth="402.0">
+              <panes>
+                <TitledPane animated="false" prefHeight="39.0" prefWidth="348.0" text="Burgers">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <RadioButton layoutX="28.0" layoutY="23.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="Hamburger">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton layoutX="28.0" layoutY="72.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="Cheeseburger">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton layoutX="28.0" layoutY="123.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="Double-double">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </RadioButton>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                </TitledPane>
+                <TitledPane animated="false" prefHeight="431.0" prefWidth="402.0" text="Fries">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="5.0" prefWidth="400.0">
+                           <children>
+                              <RadioButton layoutX="28.0" layoutY="33.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="French fries">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </RadioButton>
+                           </children></AnchorPane>
+                  </content>
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                </TitledPane>
+                <TitledPane animated="false" text="Drinks">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="309.0" prefWidth="343.0">
+                           <children>
+                              <RadioButton layoutX="14.0" layoutY="27.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="MILKSHAKE">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </RadioButton>
+                              <RadioButton layoutX="14.0" layoutY="78.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="SODA">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </RadioButton>
+                           </children></AnchorPane>
+                  </content>
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                </TitledPane>
+              </panes>
+            </Accordion>
+         </children>
+      </VBox>
+   </left>
 </BorderPane>

@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 public class InNOutBurgerUIController {
 	
 	/**
-	 * This method is called via the order now button on the first scene
+	 * This method is called via the order now button on the startup scene
 	 * When the button is clicked, we start our order and we are
 	 * taken to the next scene where we can select food items
 	 * SOURCE: https://youtu.be/XCgcQTQCfJQ 
