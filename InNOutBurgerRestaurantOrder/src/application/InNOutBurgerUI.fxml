@@ -16,12 +16,12 @@
       </ImageView>
    </center>
    <bottom>
-      <Button id="BtnOrderNowStartScreen" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#buttonClick" prefHeight="47.0" prefWidth="174.0" style="-fx-background-color: red;" text="ORDER NOW" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
+      <Button id="BtnOrderNowStartScreen" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#buttonClick" prefHeight="51.0" prefWidth="196.0" style="-fx-background-color: red;" text="ORDER NOW" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
          <BorderPane.margin>
             <Insets bottom="60.0" left="10.0" right="10.0" top="10.0" />
          </BorderPane.margin>
          <font>
-            <Font name="System Bold" size="21.0" />
+            <Font name="System Bold" size="24.0" />
          </font>
       </Button>
    </bottom>
