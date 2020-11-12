@@ -14,7 +14,7 @@ public class Main extends Application {
 		try {
 			primaryStage.setTitle("In-N-Out Burger Restaurant Order Application");
 			BorderPane root = (BorderPane)FXMLLoader.load(getClass().getResource("InNOutBurgerUI.fxml"));
-			Scene scene = new Scene(root,800,500);
+			Scene scene = new Scene(root,1000,700);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.show();
