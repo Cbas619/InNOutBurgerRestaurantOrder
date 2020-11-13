@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FoodItemSelectionController">
    <bottom>
       <Button mnemonicParsing="false" prefHeight="67.0" prefWidth="254.0" style="-fx-background-color: red;" text="ADD TO ORDER" textFill="WHITE" BorderPane.alignment="BOTTOM_RIGHT">
          <BorderPane.margin>
@@ -116,4 +116,14 @@
          </children>
       </VBox>
    </left>
+   <right>
+      <Button mnemonicParsing="false" onAction="#cancelButton" prefHeight="67.0" prefWidth="254.0" style="-fx-background-color: red;" text="CANCEL ORDER" textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </BorderPane.margin>
+      </Button>
+   </right>
 </BorderPane>
