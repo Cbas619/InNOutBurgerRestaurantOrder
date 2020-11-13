@@ -15,6 +15,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
@@ -133,38 +134,39 @@
       </VBox>
    </left>
    <right>
-      <SplitPane dividerPositions="0.3493761140819964" orientation="VERTICAL" prefHeight="492.0" prefWidth="325.0" BorderPane.alignment="CENTER">
+      <SplitPane orientation="VERTICAL" prefHeight="492.0" prefWidth="325.0" BorderPane.alignment="CENTER">
         <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="316.0" prefWidth="185.0">
                <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="55.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/InNOut.svg/1200px-InNOut.svg.png" />
                      </image>
                   </ImageView>
-               </children>
-            </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="316.0" prefWidth="185.0" />
+                  <ImageView fitHeight="188.0" fitWidth="237.0" layoutX="43.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="https://i.imgur.com/JZ8R4U0l.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
         </items>
       </SplitPane>
    </right>
    <top>
-      <ImageView fitHeight="71.0" fitWidth="1003.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+      <ImageView fitHeight="71.0" fitWidth="810.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="https://media-s3-us-east-1.ceros.com/martin-flores/images/2017/02/13/287d51a466bda5bde65be949a581eadc/palm-pattern.png" />
+         </image></ImageView>
    </top>
    <center>
-      <SplitPane dividerPositions="0.27346938775510204" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
-        <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
-               <children>
-                  <CheckBox layoutX="48.0" layoutY="14.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="BEEF PATTY" />
-                  <CheckBox layoutX="48.0" layoutY="75.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="CHEESE" />
-                  <CheckBox layoutX="48.0" layoutY="152.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="ONIONS" />
-                  <CheckBox layoutX="48.0" layoutY="210.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="TOMATO" />
-                  <CheckBox layoutX="48.0" layoutY="277.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="SPREAD" />
-               </children>
-            </AnchorPane>
-        </items>
-      </SplitPane>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <CheckBox layoutX="45.0" layoutY="132.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="BEEF PATTY" />
+            <CheckBox layoutX="45.0" layoutY="204.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="CHEESE" />
+            <CheckBox layoutX="45.0" layoutY="270.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="ONIONS" />
+            <CheckBox layoutX="45.0" layoutY="328.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="TOMATO" />
+            <CheckBox layoutX="45.0" layoutY="395.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="SPREAD" />
+         </children>
+      </Pane>
    </center>
 </BorderPane>
