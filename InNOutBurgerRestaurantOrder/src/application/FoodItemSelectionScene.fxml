@@ -45,15 +45,15 @@
                                     <Font size="20.0" />
                                  </font>
                                  <toggleGroup>
-                                    <ToggleGroup fx:id="selection" />
+                                    <ToggleGroup fx:id="burgers" />
                                  </toggleGroup>
                               </RadioButton>
-                              <RadioButton layoutX="28.0" layoutY="72.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="CHEESEBURGER" toggleGroup="$selection">
+                              <RadioButton layoutX="28.0" layoutY="72.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="CHEESEBURGER" toggleGroup="$burgers">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
                               </RadioButton>
-                              <RadioButton layoutX="28.0" layoutY="123.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="HAMBURGER" toggleGroup="$selection">
+                              <RadioButton layoutX="28.0" layoutY="123.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="HAMBURGER" toggleGroup="$burgers">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
@@ -69,10 +69,13 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="5.0" prefWidth="400.0">
                            <children>
-                              <RadioButton layoutX="28.0" layoutY="33.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="FRENCH FRIES" toggleGroup="$selection">
+                              <RadioButton layoutX="28.0" layoutY="33.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="FRENCH FRIES">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="fries" />
+                                 </toggleGroup>
                               </RadioButton>
                            </children></AnchorPane>
                   </content>
@@ -84,17 +87,20 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="309.0" prefWidth="343.0">
                            <children>
-                              <RadioButton layoutX="14.0" layoutY="27.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="SHAKES" toggleGroup="$selection">
+                              <RadioButton layoutX="14.0" layoutY="27.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="SHAKES">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="drinks" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton layoutX="14.0" layoutY="78.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="SODA" toggleGroup="$drinks">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
                               </RadioButton>
-                              <RadioButton layoutX="14.0" layoutY="78.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="SODA" toggleGroup="$selection">
-                                 <font>
-                                    <Font size="20.0" />
-                                 </font>
-                              </RadioButton>
-                              <RadioButton layoutX="14.0" layoutY="125.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="LEMONADE" toggleGroup="$selection">
+                              <RadioButton layoutX="14.0" layoutY="125.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="LEMONADE" toggleGroup="$drinks">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
