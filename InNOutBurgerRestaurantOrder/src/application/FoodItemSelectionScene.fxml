@@ -59,7 +59,7 @@
                            <children>
                               <RadioButton layoutX="28.0" layoutY="23.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="DOUBLE-DOUBLE">
                                  <font>
-                                    <Font size="20.0" />
+                                    <Font name="System Bold" size="20.0" />
                                  </font>
                                  <toggleGroup>
                                     <ToggleGroup fx:id="burgers" />
@@ -67,12 +67,12 @@
                               </RadioButton>
                               <RadioButton layoutX="28.0" layoutY="72.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="CHEESEBURGER" toggleGroup="$burgers">
                                  <font>
-                                    <Font size="20.0" />
+                                    <Font name="System Bold" size="20.0" />
                                  </font>
                               </RadioButton>
                               <RadioButton layoutX="28.0" layoutY="123.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="HAMBURGER" toggleGroup="$burgers">
                                  <font>
-                                    <Font size="20.0" />
+                                    <Font name="System Bold" size="20.0" />
                                  </font>
                               </RadioButton>
                            </children>
@@ -88,7 +88,7 @@
                            <children>
                               <RadioButton layoutX="28.0" layoutY="33.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="FRENCH FRIES">
                                  <font>
-                                    <Font size="20.0" />
+                                    <Font name="System Bold" size="20.0" />
                                  </font>
                                  <toggleGroup>
                                     <ToggleGroup fx:id="fries" />
@@ -106,7 +106,7 @@
                            <children>
                               <RadioButton layoutX="14.0" layoutY="27.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="SHAKES">
                                  <font>
-                                    <Font size="20.0" />
+                                    <Font name="System Bold" size="20.0" />
                                  </font>
                                  <toggleGroup>
                                     <ToggleGroup fx:id="drinks" />
@@ -114,12 +114,12 @@
                               </RadioButton>
                               <RadioButton layoutX="14.0" layoutY="78.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="SODA" toggleGroup="$drinks">
                                  <font>
-                                    <Font size="20.0" />
+                                    <Font name="System Bold" size="20.0" />
                                  </font>
                               </RadioButton>
                               <RadioButton layoutX="14.0" layoutY="125.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="201.0" text="LEMONADE" toggleGroup="$drinks">
                                  <font>
-                                    <Font size="20.0" />
+                                    <Font name="System Bold" size="20.0" />
                                  </font>
                               </RadioButton>
                            </children></AnchorPane>
@@ -134,18 +134,18 @@
       </VBox>
    </left>
    <right>
-      <SplitPane orientation="VERTICAL" prefHeight="492.0" prefWidth="325.0" BorderPane.alignment="CENTER">
+      <SplitPane orientation="VERTICAL" prefHeight="488.0" prefWidth="310.0" BorderPane.alignment="CENTER">
         <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="316.0" prefWidth="185.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="454.0" prefWidth="308.0">
                <children>
                   <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="55.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/InNOut.svg/1200px-InNOut.svg.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="188.0" fitWidth="237.0" layoutX="43.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="281.0" fitWidth="251.0" layoutX="31.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="https://i.imgur.com/JZ8R4U0l.png" />
+                        <Image url="https://media-cdn.tripadvisor.com/media/photo-p/0e/af/ab/64/in-n-out-2.jpg" />
                      </image>
                   </ImageView>
                </children></AnchorPane>
@@ -153,19 +153,34 @@
       </SplitPane>
    </right>
    <top>
-      <ImageView fitHeight="71.0" fitWidth="810.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+      <ImageView fitHeight="89.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
          <image>
             <Image url="https://media-s3-us-east-1.ceros.com/martin-flores/images/2017/02/13/287d51a466bda5bde65be949a581eadc/palm-pattern.png" />
          </image></ImageView>
    </top>
    <center>
-      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <Pane prefHeight="488.0" prefWidth="361.0" BorderPane.alignment="CENTER">
          <children>
-            <CheckBox layoutX="45.0" layoutY="132.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="BEEF PATTY" />
-            <CheckBox layoutX="45.0" layoutY="204.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="CHEESE" />
-            <CheckBox layoutX="45.0" layoutY="270.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="ONIONS" />
-            <CheckBox layoutX="45.0" layoutY="328.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="TOMATO" />
-            <CheckBox layoutX="45.0" layoutY="395.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="SPREAD" />
+            <CheckBox layoutX="45.0" layoutY="147.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="BEEF PATTY">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></CheckBox>
+            <CheckBox layoutX="45.0" layoutY="222.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="CHEESE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></CheckBox>
+            <CheckBox layoutX="45.0" layoutY="301.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="ONIONS">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></CheckBox>
+            <CheckBox layoutX="45.0" layoutY="372.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="TOMATO">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></CheckBox>
+            <CheckBox layoutX="45.0" layoutY="443.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="SPREAD">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></CheckBox>
          </children>
       </Pane>
    </center>
