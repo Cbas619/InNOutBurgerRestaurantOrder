@@ -1,32 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 
-<BorderPane prefHeight="700.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
-   <top>
-      <Label text="ORDER INFORMATION" BorderPane.alignment="CENTER">
-         <BorderPane.margin>
-            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
-         </BorderPane.margin>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="306.0" layoutY="21.0" text="ORDER INFORMATION">
          <font>
             <Font name="System Bold" size="36.0" />
          </font>
       </Label>
-   </top>
-   <center>
-      <VBox prefHeight="495.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
-         <children>
-            <VBox prefHeight="135.0" prefWidth="1000.0">
-               <children>
-                  <Label prefHeight="57.0" prefWidth="128.0" text="NAME: " />
-               </children>
-            </VBox>
-         </children>
-      </VBox>
-   </center>
-</BorderPane>
+      <Label layoutX="180.0" layoutY="585.0" prefHeight="101.0" prefWidth="641.0" text="Thank You for ordering at In-N-Out!" textFill="RED">
+         <font>
+            <Font name="Brush Script MT Italic" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="174.0" prefHeight="61.0" prefWidth="175.0" text="Name: ">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="278.0" prefHeight="61.0" prefWidth="175.0" text="Order #:">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="373.0" prefHeight="61.0" prefWidth="175.0" text="Total:">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="477.0" prefHeight="61.0" prefWidth="325.0" text="Pickup in: 20 minutes">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="12.0" layoutY="111.0" prefHeight="0.0" prefWidth="975.0" />
+   </children>
+</AnchorPane>
