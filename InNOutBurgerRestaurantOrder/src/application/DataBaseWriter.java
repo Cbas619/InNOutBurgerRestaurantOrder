@@ -34,9 +34,7 @@ public class DataBaseWriter {
 		fileWriter.close();
 	}
 	
-	public static void main(String[] args) throws IOException {
-	 
-		
+	public static void main(String[] args) throws IOException {	
 	/**	
 	 * FileWriter fileWriter = new FileWriter("OrderInfo.txt");
 		fileWriter.write("--Order #" + new DataBaseWriter().getOrderNumber() + "--\n" );
