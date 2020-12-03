@@ -13,7 +13,7 @@ import javafx.scene.control.Label;
 
 public class CartController {
 	
-	@FXML Label labelSubtotal;
+	
 
 	/**
 	 * This method is called via the order now button on the startup scene
@@ -39,6 +39,7 @@ public class CartController {
 		window.show();
 	}
 	
+	@FXML Label labelSubtotal;
 	public void displayTotal() {
 		labelSubtotal.setText(FoodItemSelectionController.getTotal());
 	}

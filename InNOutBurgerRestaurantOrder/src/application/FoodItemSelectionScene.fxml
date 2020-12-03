@@ -112,12 +112,12 @@
                                     <ToggleGroup fx:id="drinks" />
                                  </toggleGroup>
                               </RadioButton>
-                              <RadioButton layoutX="14.0" layoutY="78.0" mnemonicParsing="false" onAction="#drink23" prefHeight="36.0" prefWidth="201.0" text="SODA $1.50" toggleGroup="$drinks">
+                              <RadioButton layoutX="14.0" layoutY="78.0" mnemonicParsing="false" onAction="#drink2" prefHeight="36.0" prefWidth="201.0" text="SODA $1.50" toggleGroup="$drinks">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>
                               </RadioButton>
-                              <RadioButton fx:id="drink23" layoutX="14.0" layoutY="125.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="280.0" text="LEMONADE $1.50" toggleGroup="$drinks">
+                              <RadioButton layoutX="14.0" layoutY="125.0" mnemonicParsing="false" onAction="#drink3" prefHeight="36.0" prefWidth="280.0" text="LEMONADE $1.50" toggleGroup="$drinks">
                                  <font>
                                     <Font name="System Bold" size="20.0" />
                                  </font>

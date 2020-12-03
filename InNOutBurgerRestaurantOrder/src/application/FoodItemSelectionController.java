@@ -1,7 +1,6 @@
 package application;
 
 import java.io.IOException;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -11,7 +10,17 @@ import javafx.stage.Stage;
 
 public class FoodItemSelectionController {
 	
-	static double orderTotal = 0;
+	static double orderTotal = 0.00;
+	public static final double Burger1Price 	= 3.45;
+	public static final double Burger2Price 	= 2.40;
+	public static final double Burger3Price 	= 2.10;
+	
+	public static final double friesPrice 		= 1.60;
+	
+	public static final double shake1Price 		= 2.00;
+	public static final double soda2Price 		= 1.50;
+	public static final double lemonade3Price 	= 1.50;
+	
 	
 	/**
 	 * This method is called via the order now button on the startup scene
@@ -40,35 +49,36 @@ public class FoodItemSelectionController {
 	}
 	
 	public double burger1() {
-		return orderTotal += 3.45;
+		return orderTotal += Burger1Price;
 	}
 	
 	public double burger2() {
-		return orderTotal += 2.40;
+		return orderTotal += Burger2Price;
 	}
 	
 	public double burger3() {
-		return orderTotal += 2.10;
+		return orderTotal += Burger3Price;
 	}
 	
 	public double fries() {
-		return orderTotal += 1.60;
+		return orderTotal += friesPrice;
 	}
 	
 	public double drink1() {
-		return orderTotal += 2.00;
+		return orderTotal += shake1Price;
 	}
 	
-	public double drink23() {
-		return orderTotal += 1.50;
+	public double drink2() {
+		return orderTotal += soda2Price;
 	}
 	
-//	public static double getTotal() {
-//		return orderTotal;
-//	}
+	public double drink3() {
+	return orderTotal += lemonade3Price;
+}
 	
 	public static String getTotal() {
-		return "$"+ orderTotal;
+		double roundToTwoPlaces = Math.round(orderTotal * 100.0) / 100.0;
+		return "$" + roundToTwoPlaces;
 	}
 
 }
