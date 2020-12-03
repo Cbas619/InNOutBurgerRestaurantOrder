@@ -161,26 +161,27 @@
    <center>
       <Pane prefHeight="488.0" prefWidth="361.0" BorderPane.alignment="CENTER">
          <children>
-            <CheckBox layoutX="45.0" layoutY="147.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="BEEF PATTY">
+            <CheckBox layoutX="45.0" layoutY="128.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="CHEESE">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font></CheckBox>
-            <CheckBox layoutX="45.0" layoutY="222.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="CHEESE">
+            <CheckBox layoutX="45.0" layoutY="275.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="ONIONS">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font></CheckBox>
-            <CheckBox layoutX="45.0" layoutY="301.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="ONIONS">
+            <CheckBox layoutX="45.0" layoutY="226.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="TOMATO">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font></CheckBox>
-            <CheckBox layoutX="45.0" layoutY="372.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="TOMATO">
+            <CheckBox layoutX="45.0" layoutY="324.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="SPREAD">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font></CheckBox>
-            <CheckBox layoutX="45.0" layoutY="443.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="SPREAD">
+            <CheckBox layoutX="45.0" layoutY="177.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="195.0" text="LETTUCE">
                <font>
                   <Font name="System Bold" size="20.0" />
-               </font></CheckBox>
+               </font>
+            </CheckBox>
          </children>
       </Pane>
    </center>
