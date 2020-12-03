@@ -6,6 +6,12 @@
 //import java.util.Scanner;
 //
 //public class DataBaseWriter {
+//
+//
+//
+//
+//
+//
 //	
 //	public int getOrderNumber() throws IOException
 //	{

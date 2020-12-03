@@ -10,6 +10,7 @@ import javafx.stage.Stage;
 
 public class FoodItemSelectionController {
 	
+<<<<<<< HEAD
 	static double orderTotal = 0.00;
 	public static final double Burger1Price 	= 3.45;
 	public static final double Burger2Price 	= 2.40;
@@ -22,6 +23,8 @@ public class FoodItemSelectionController {
 	public static final double lemonade3Price 	= 1.50;
 	
 	
+=======
+>>>>>>> branch 'master' of https://github.com/Cbas619/InNOutBurgerRestaurantOrderRepo.git
 	/**
 	 * This method is called via the order now button on the startup scene
 	 * When the button is clicked, we start our order and we are
@@ -37,6 +40,7 @@ public class FoodItemSelectionController {
 		window.setScene(FoodItemSelectionScene);
 		window.show();
 	}
+<<<<<<< HEAD
 	
 	public void continueButton(ActionEvent event) throws IOException {
 		Parent parent = FXMLLoader.load(getClass().getResource("CartScene3.fxml"));
@@ -80,5 +84,7 @@ public class FoodItemSelectionController {
 		double roundToTwoPlaces = Math.round(orderTotal * 100.0) / 100.0;
 		return "$" + roundToTwoPlaces;
 	}
+=======
+>>>>>>> branch 'master' of https://github.com/Cbas619/InNOutBurgerRestaurantOrderRepo.git
 
 }
