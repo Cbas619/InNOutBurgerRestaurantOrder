@@ -24,6 +24,15 @@ public class CheckoutController {
 		
 		//showTextInput();
 	}
+	
+	
+	public void backButton(ActionEvent event) throws IOException {
+		Parent parent = FXMLLoader.load(getClass().getResource("CartScene3.fxml"));
+		Scene FoodItemSelectionScene = new Scene(parent);
+		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+		window.setScene(FoodItemSelectionScene);
+		window.show();
+	}
 
 	//for some reason my most recent push did not have checkout controller class or fxml scene
 	//only this version 77c088e so will push this 

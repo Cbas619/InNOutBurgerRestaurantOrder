@@ -12,15 +12,7 @@ public class OrderInfoController {
 		return orderNumber;
 	}
 	
-	
-//	public void displayOrderNumber() {
-//		orderNumberLabel.setText("#" + Math.abs(orderNumberGenerator()));
-//	}
 
-	
-//	public void displayTotal2() {
-//		secondLabelSubtotal.setText(FoodItemSelectionController.getTotal());
-//	}
 	
 	@FXML Label orderNumberLabel;
 	@FXML Label secondLabelSubtotal;
