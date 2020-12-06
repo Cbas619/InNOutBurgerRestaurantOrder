@@ -81,5 +81,4 @@ public class FoodItemSelectionController {
 		double roundToTwoPlaces = Math.round(orderTotal * 100.0) / 100.0;
 		return "$" + roundToTwoPlaces;
 	}
-
 }

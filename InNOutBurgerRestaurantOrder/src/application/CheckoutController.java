@@ -9,22 +9,23 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.Label;
+import javafx.scene.control.Labeled;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 
 public class CheckoutController {
 	
-	
-
-	public void submitOrderButton(ActionEvent event) throws IOException {
+	@FXML TextField nameTextBox;
+	public void submitOrderButton(ActionEvent event) throws IOException {	
 		Parent parent = FXMLLoader.load(getClass().getResource("OrderInfoScene.fxml"));
 		Scene FoodItemSelectionScene = new Scene(parent);
 		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 		window.setScene(FoodItemSelectionScene);
 		window.show();
-		
-		//showTextInput();
 	}
-	
 	
 	public void backButton(ActionEvent event) throws IOException {
 		Parent parent = FXMLLoader.load(getClass().getResource("CartScene3.fxml"));
@@ -32,17 +33,6 @@ public class CheckoutController {
 		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 		window.setScene(FoodItemSelectionScene);
 		window.show();
-	}
-
-	//for some reason my most recent push did not have checkout controller class or fxml scene
-	//only this version 77c088e so will push this 
-	@FXML TextField nameTextBox;
-	public void showTextInput() {
-		System.out.println(nameTextBox.getText());
-	}
-
-//	@FXML TextField nameTextBox;
-//	public String showTextInput() {
-//		return nameTextBox.getText();
-//	}
+	}	
+	
 }

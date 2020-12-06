@@ -10,11 +10,11 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CartController">
+<BorderPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CartController">
    <top>
-      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="53.0" prefWidth="158.0" text="CART" BorderPane.alignment="CENTER">
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="116.0" prefWidth="231.0" text="CART" BorderPane.alignment="CENTER">
          <font>
-            <Font name="System Bold" size="36.0" />
+            <Font name="System Bold" size="55.0" />
          </font>
          <BorderPane.margin>
             <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
@@ -24,11 +24,11 @@
    <bottom>
       <AnchorPane prefHeight="137.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
          <children>
-            <Button layoutX="40.0" layoutY="37.0" mnemonicParsing="false" onAction="#backButton" prefHeight="64.0" prefWidth="183.0" style="-fx-background-color: red;" text="BACK " textFill="WHITE">
+            <Button layoutX="35.0" layoutY="37.0" mnemonicParsing="false" onAction="#backButton" prefHeight="70.0" prefWidth="295.0" style="-fx-background-color: red;" text="BACK " textFill="WHITE">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font></Button>
-            <Button layoutX="773.0" layoutY="37.0" mnemonicParsing="false" onAction="#continueButton" prefHeight="64.0" prefWidth="183.0" style="-fx-background-color: red;" text="CONTINUE" textFill="WHITE">
+            <Button layoutX="670.0" layoutY="37.0" mnemonicParsing="false" onAction="#continueButton" prefHeight="70.0" prefWidth="295.0" style="-fx-background-color: red;" text="CONTINUE" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -39,26 +39,27 @@
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Label fx:id="labelSubtotal" layoutX="443.0" layoutY="312.0" prefHeight="71.0" prefWidth="303.0">
+            <Label fx:id="labelSubtotal" layoutX="443.0" layoutY="296.0" prefHeight="71.0" prefWidth="303.0">
                <font>
                   <Font name="System Bold" size="30.0" />
                </font>
             </Label>
-            <Separator layoutX="198.0" layoutY="308.0" prefHeight="4.0" prefWidth="605.0" />
-            <Button layoutX="443.0" layoutY="121.0" mnemonicParsing="false" onAction="#displayTotal" prefHeight="40.0" prefWidth="115.0" text="Update Total" />
-            <Label layoutX="241.0" layoutY="312.0" prefHeight="71.0" prefWidth="176.0" text="SUBTOTAL: ">
+            <Separator layoutX="198.0" layoutY="284.0" prefHeight="4.0" prefWidth="605.0" />
+            <Button layoutX="427.0" layoutY="194.0" mnemonicParsing="false" onAction="#displayTotal" prefHeight="62.0" prefWidth="147.0" style="-fx-background-color: red;" text="Update Total" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Label layoutX="241.0" layoutY="296.0" prefHeight="71.0" prefWidth="176.0" text="SUBTOTAL: ">
                <font>
                   <Font name="System Bold" size="30.0" />
                </font>
             </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="401.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/InNOut.svg/1200px-InNOut.svg.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
    </center>
-   <right>
-      <ImageView fitHeight="246.0" fitWidth="194.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
-         <image>
-            <Image url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/InNOut.svg/1200px-InNOut.svg.png" />
-         </image>
-      </ImageView>
-   </right>
 </BorderPane>

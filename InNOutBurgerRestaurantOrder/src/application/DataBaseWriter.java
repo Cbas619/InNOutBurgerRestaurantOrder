@@ -1,64 +1,17 @@
-//package application;
-//
-//import java.io.FileReader;
-//import java.io.FileWriter;
-//import java.io.IOException;
-//import java.util.Scanner;
-//
-//public class DataBaseWriter {
-//
-//
-//
-//
-//
-//
-//	
-//	public int getOrderNumber() throws IOException
-//	{
-//		int orderNumber;
-//		FileReader file = new FileReader("OrderNumberTracker.txt");
-//		Scanner scanOrderNum = new Scanner(file);
-//		
-//		if (!scanOrderNum.hasNext())
-//		{
-//			orderNumber = 0;
-//			updateOrderNumber(orderNumber);
-//			return orderNumber;
-//		}
-//		orderNumber = scanOrderNum.nextInt();
-//		scanOrderNum.close();
-//		updateOrderNumber(orderNumber);
-//		
-//		return orderNumber;
-//	}
-//	
-//	public void updateOrderNumber(int orderNumber) throws IOException
-//	{
-//		orderNumber++;
-//		FileWriter fileWriter = new FileWriter("OrderNumberTracker.txt");
-//		fileWriter.write(orderNumber);
-//		fileWriter.close();
-//	}
-//	
-//	public static void main(String[] args) throws IOException {
-//	 
-//		
-//	/**	
-//	 * FileWriter fileWriter = new FileWriter("OrderInfo.txt");
-//		fileWriter.write("--Order #" + new DataBaseWriter().getOrderNumber() + "--\n" );
-//		fileWriter.close();
-//		
-//		DataBaseWriter foo = new DataBaseWriter();
-//		foo.getOrderNumberCounter()
-//		**/
-//		
-//		
-//		DataBaseWriter orderNumber = new DataBaseWriter();
-//		int order = orderNumber.getOrderNumber();
-//		
-//		FileWriter fileWriter = new FileWriter("OrderInfo.txt");
-//		fileWriter.write("--Order #" + order + "--\n" );
-//		fileWriter.close();
-//	}
-//	
-//}
+package application;
+import java.io.FileWriter; 
+import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class DataBaseWriter {
+	
+	public void writeOrderNum(String orderNum) throws IOException
+	{
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+		LocalDateTime now = LocalDateTime.now();
+		FileWriter fileWriter = new FileWriter("OrderInfo.txt");
+		fileWriter.write("Order Number: " + orderNum + " Received on: " + dtf.format(now) + "\n");
+		fileWriter.close();
+	}	
+}
